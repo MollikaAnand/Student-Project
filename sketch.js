@@ -14,7 +14,7 @@ gameImage = loadImage("PROJECT46 PICTURE.webp");
 function setup() {
   createCanvas(400,400);
 
- // turtle = createSprite(72,340,25,25);
+ turtle = createSprite(72,340,25,25);
    // turtle.visible = false;
 }
 
@@ -57,13 +57,13 @@ function draw() {
     textSize(30)
     text("Tries: " + tries,300,30);
 
-  /*  if(mousePressedOver(turtle) && tries>0) {
+    if(mousePressedOver(turtle) && tries>0) {
       console.log(tries)
       gameState = "end1";
       //tries = tries - 1
       console.log("inside mousePressedOver")
 
-    }*/
+    }
     
    
   /*else if (tries === 0){
@@ -111,7 +111,7 @@ function draw() {
   drawSprites();
 }
 
-function mousePressed(){
+function mouseClicked(){
 
   tries = tries- 1;
   if(tries === 0){
