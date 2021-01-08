@@ -14,7 +14,7 @@ gameImage = loadImage("PROJECT46 PICTURE.webp");
 function setup() {
   createCanvas(400,400);
 
-  turtle = createSprite(72,340,25,25);
+ // turtle = createSprite(72,340,25,25);
    // turtle.visible = false;
 }
 
