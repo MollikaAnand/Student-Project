@@ -57,13 +57,13 @@ function draw() {
     textSize(30)
     text("Tries: " + tries,300,30);
 
-    if(mousePressedOver(turtle) && tries>0) {
+  /*  if(mousePressedOver(turtle) && tries>0) {
       console.log(tries)
       gameState = "end1";
       //tries = tries - 1
       console.log("inside mousePressedOver")
 
-    }
+    }*/
     
    
   /*else if (tries === 0){
